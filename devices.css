@@ -1,21 +1,21 @@
 @media (max-width: 1280px){
-	nav, header, article, footer, div, span, h1, h2, h3 {
+	nav, header, article, footer, div, span, h1, h2, h3, a {
 		font-size: 95%;
-		line-height: 95%;
+		line-height: auto;
 	}
 }
 
 @media (max-width: 768px){
-	nav, header, article, footer, div, span, h1, h2, h3 {
+	nav, header, article, footer, div, span, h1, h2, h3, a {
 		font-size: 90%;
-		line-height: 90%;
+		line-height: auto;
 	}
 }
 
 @media (max-width: 480px){
-	nav, header, article, footer, div, span, h1, h2, h3 {
+	nav, header, article, footer, div, span, h1, h2, h3, a {
 		font-size: 85%;
-		line-height: 80%;
+		line-height: auto;
 	}
 }
 
