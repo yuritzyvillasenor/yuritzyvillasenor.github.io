@@ -167,10 +167,10 @@ article.about {
 
 article.firstquote {
 	background-color: #25a1b0;
-	background-image:url("/images/ipointerwbg.png"), url("images/header2.jpg");
-	background-repeat:no-repeat;
-	background-size:100%;
-	background-position:bottom center, top center;
+	background-image: url("/images/ipointerwbg.png"), url("images/header2.jpg");
+	background-repeat: no-repeat;
+	background-size: auto, 100%;
+	background-position: bottom center, top center;
 	background-attachment: scroll, fixed;
 	color: #ffffff;
 	text-align: center;
@@ -222,7 +222,7 @@ article.contribute2 {
 article.contact {
 	font-family: Avenir 'Roman';
 	background-color:#0e2044;
-	background-image:url("wpointer.png");
+	background-image: url("wpointer.png");
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
