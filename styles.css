@@ -133,7 +133,7 @@ article {
 }
 
 article.about {
-	background-image:url("sbpointer.png");
+	background-image:url("/images/sbpointer.png");
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -159,7 +159,22 @@ article.secondquote {
 article.contribute {
 	color: #ffffff;
 	background-color:#0c3052;
-	background-image:url("wpointer.png");
+	background-image:url("/images/background1.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Avenir 'Roman';
+	font-size: 20px;
+	line-height: 28px;
+	width: 100%;
+	padding: 200px 200px;
+}
+
+
+article.contribute2 {
+	background-image:url("/images/wpointer.png");
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
