@@ -160,7 +160,7 @@ article.about {
 	background-image:url("/images/sbpointer.png");
 	background-position: top center;
 	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-color: #ffffff;
 }
 
