@@ -1,35 +1,18 @@
 @media (max-width: 1280px){
-		h3 {
-		color: #ffffff;
+	nav, header, article, footer, div {
 		font-size: 95%;
-		font-family: Century Schoolbook;
-		line-height: 50px;
-		left: -25px;
-		position: relative;
 	}
 }
 
 @media (max-width: 768px){
-		h3 {
-		color: #ffffff;
+	nav, header, article, footer, div {
 		font-size: 85%;
-		font-family: Century Schoolbook;
-		line-height: 50px;
-		left: -25px;
-		position: relative;
 	}
 }
 
 @media (max-width: 480px){
-
-	h3 {
-		color: #ffffff;
+	nav, header, article, footer, div {
 		font-size: 75%;
-		font-family: Century Schoolbook;
-		line-height: 50px;
-		left: -25px;
-		position: relative;
 	}
-
 }
 
