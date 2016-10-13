@@ -1,7 +1,7 @@
 @media (max-width: 1280px){
 		h3 {
 		color: #ffffff;
-		font-size: 20px;
+		font-size: 85%;
 		font-family: Century Schoolbook;
 		line-height: 50px;
 		left: -25px;
@@ -12,7 +12,7 @@
 @media (max-width: 768px){
 		h3 {
 		color: #ffffff;
-		font-size: 20px;
+		font-size: 65%;
 		font-family: Century Schoolbook;
 		line-height: 50px;
 		left: -25px;
@@ -24,7 +24,7 @@
 
 	h3 {
 		color: #ffffff;
-		font-size: 20px;
+		font-size: 45%;
 		font-family: Century Schoolbook;
 		line-height: 50px;
 		left: -25px;
