@@ -174,7 +174,7 @@ article.firstquote {
 	background-image:url("/images/ipointerwbg.png"), url("images/header2.jpg");
 	background-repeat:no-repeat;
 	background-size:100%;
-	background-position:bottom center, top center;
+	background-position:top center, top center;
 	background-attachment: scroll, fixed;
 	color: #ffffff;
 	text-align: center;
