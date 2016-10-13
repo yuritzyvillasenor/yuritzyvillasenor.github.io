@@ -2,9 +2,9 @@
 
 header {
 	background-image:url("images/header2.jpg");
-background-repeat:no-repeat;
-background-size:100%;
-background-position:center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
 	background-color: #ececec;
 	height: 500px;
 	font-family: Avenir 'Roman';
