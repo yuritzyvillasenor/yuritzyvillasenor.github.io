@@ -35,7 +35,7 @@ h3 {
 
 nav {
 	background-color: #0e2044;
-	background-image:url("images/header3.jpg"), url("ipointerwbg.png");
+	background-image:url("images/header3.jpg"), url("/images/ipointerwbg.png");
 	background-repeat:no-repeat;
 	background-size:100%;
 	background-position:top center, bottom center;
