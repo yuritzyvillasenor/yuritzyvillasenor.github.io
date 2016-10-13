@@ -35,11 +35,11 @@ h3 {
 
 nav {
 	background-color: #0e2044;
-	background-image:url("images/header3.jpg"), url("/images/ipointerwbg.png");
+	background-image:url("images/header3.jpg");
 	background-repeat:no-repeat;
 	background-size:100%;
-	background-position:top center, bottom center;
-	background-attachment: fixed, scroll;
+	background-position:top center;
+	background-attachment: fixed;
 	text-align: right;
 	display: block;
 	padding-top: 20px;
@@ -171,11 +171,11 @@ article.about {
 
 article.firstquote {
 	background-color: #25a1b0;
-	background-image:url("images/header2.jpg");
+	background-image:url("images/header2.jpg"), url("/images/ipointerwbg.png");
 	background-repeat:no-repeat;
 	background-size:100%;
-	background-position:top center;
-	background-attachment: fixed;
+	background-position:top center, bottom center;
+	background-attachment: fixed, scroll;
 	color: #ffffff;
 	text-align: center;
 	width: 100%;
