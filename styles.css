@@ -198,7 +198,7 @@ article.contribute {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: scroll, fixed;
-	background-size: 100%;
+	background-size: auto, 100%;
 	font-family: Avenir 'Roman';
 	font-size: 20px;
 	line-height: 28px;
