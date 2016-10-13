@@ -171,11 +171,11 @@ article.about {
 
 article.firstquote {
 	background-color: #25a1b0;
-	background-image:url("images/header2.jpg"), url("/images/ipointerwbg.png");
+	background-image:url("/images/ipointerwbg.png"), url("images/header2.jpg");
 	background-repeat:no-repeat;
 	background-size:100%;
-	background-position:top center, bottom center;
-	background-attachment: fixed, scroll;
+	background-position:bottom center, top center;
+	background-attachment: scroll, fixed;
 	color: #ffffff;
 	text-align: center;
 	width: 100%;
