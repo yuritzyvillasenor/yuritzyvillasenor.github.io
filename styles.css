@@ -1,6 +1,10 @@
 /*  */
 
 header {
+	background-image:url("images/header.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-position: absolute;
 	background-color: #ececec;
 	height: 500px;
 	font-family: Avenir 'Roman';
