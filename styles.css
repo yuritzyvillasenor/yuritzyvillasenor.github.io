@@ -160,7 +160,7 @@ article.about {
 	background-image:url("/images/sbpointer.png");
 	background-position: top center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-color: #ffffff;
 }
 
@@ -177,7 +177,7 @@ article.secondquote {
 	background-image:url("/images/background2.jpg");
 	background-position: bottom right;
 	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-color: #ffffff;
 	color: #0e2044;
 	text-align: center;
