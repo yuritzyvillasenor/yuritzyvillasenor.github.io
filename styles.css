@@ -180,10 +180,10 @@ article.firstquote {
 
 
 article.secondquote {
-	background-image:, url("images/wpointer.png"), url("images/background2.jpg");
-	background-position: top center, bottom right;
+	background-image: url("images/background2.jpg");
+	background-position: bottom right;
 	background-repeat: no-repeat;
-	background-attachment: scroll, fixed;
+	background-attachment: fixed;
 	background-color: #ffffff;
 	color: #0e2044;
 	text-align: center;
@@ -194,10 +194,10 @@ article.secondquote {
 article.contribute {
 	color: #ffffff;
 	background-color:#0c3052;
-	background-image:url("images/background1.jpg");
+	background-image: url("images/wpointer.png"), url("images/background1.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-attachment: fixed;
+	background-attachment: scroll, fixed;
 	background-size: 100%;
 	font-family: Avenir 'Roman';
 	font-size: 20px;
