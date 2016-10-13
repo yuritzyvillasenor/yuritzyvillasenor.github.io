@@ -331,13 +331,13 @@ article.contact {
 
 footer {
 	font-family: Avenir 'Roman';
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 24px;
 	color: #ffffff;
 	background-color: #0d172b;
 	width: 100%;
 	padding: 50px 200px;
-	text-align: right;
+	text-align: center;
 }
 
 .avatar {
