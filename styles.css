@@ -162,10 +162,6 @@ article {
 }
 
 article.about {
-	background-image:url("images/sbpointer.png");
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
 	background-color: #ffffff;
 }
 
@@ -179,7 +175,7 @@ article.firstquote {
 	color: #ffffff;
 	text-align: center;
 	width: 100%;
-	padding: 100px 200px;
+	padding: 100px 200px 116px 200px;
 }
 
 
