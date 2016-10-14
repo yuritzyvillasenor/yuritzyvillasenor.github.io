@@ -294,8 +294,8 @@ article.contribute {
 
 @media (max-width: 480px){
 
-.heading1, .heading2, .heading3a, .heading3b {
-	font-size: 15px;
+span.heading1, span.heading2, span.heading3a, span.heading3b {
+	font-size: 15px!important;
 	line-height: 18px;
 }
 
