@@ -68,6 +68,17 @@
 		padding-top: 20px;
 	}
 
+	.leftside1, .rightside1 {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		padding: 0px;
+	}
+
+	.rightside1{
+		padding-top: 20px;
+	}
+
 	.toplogo {
 	height: 40px;
 	display: block;
@@ -285,6 +296,77 @@ article.contribute {
 	}
 
 
+nav {
+	background-color: #0e2044;
+	background-image: none;
+	display: block;
+	padding: 20px 0px 20px 0px;
+	text-align: right;
+}
+
+header {
+	background-color: #0e2044;
+	background-image: url("images/header-mobile.jpg");
+	background-position: top center;
+	background-size: 100%;
+	background-attachment: scroll;
+	font-family: 'Muli', serif;
+	font-size: 20px;
+	font-weight: 400, normal;
+	letter-spacing: 0px;
+	line-height: 25px;
+	height: 300px;
+	padding-right: 20px;
+}
+
+article.firstquote {
+	background-color: #25a1b0;
+	background-image: url("images/ipointerwbg.png"), none;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom center;
+	background-attachment: scroll;
+	text-align: center;
+	width: 100%;
+}
+
+article.secondquote {
+	background-image: url("images/background2-mobile.jpg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100%;
+	background-color: #ffffff;
+	color: #0e2044;
+	text-align: center;
+	width: 100%;
+	padding: 20px 20px;
+}
+
+
+article.contribute {
+	color: #ffffff;
+	background-color:#0c3052;
+	background-image: url("images/wpointeribg.png"), url("images/background1-mobile.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%, cover;
+	background-position: top center;
+	background-attachment: scroll;
+	width: 100%;
+}
+
+
+.headerright, .qname {
+	font-size: 12px;
+	line-height: 15px;
+
+}
+
+.leftside2, .rightside2, .leftside3, .rightside3 {
+	width: 100%;
+	display: block;
+	padding: 0px;
+
 }
 
 
@@ -342,7 +424,7 @@ span.heading1, span.heading2, span.heading3a, span.heading3b {
 		font-size: 15px;
 	}
 
-	.leftside2, .rightside2 {
+	.leftside2, .rightside2, .leftside3, .rightside3 {
 		width: 100%;
 		display: block;
 	}

@@ -128,14 +128,21 @@ footer {
 	width: 45%;
 }
 
-.leftside2 {
+.leftside1 {
 	width: 35%;
 }
 
-.rightside2 {
+.rightside1 {
 	vertical-align: middle;
 }
 
+.leftside3 {
+	width: 50%;
+}
+
+.rightside3 {
+	width: 50%;
+}
 
 a.navlink, a.navlink:active, a.navlink:link, a.navlink:visited {
 	color: #ffffff;
@@ -282,6 +289,12 @@ p {
 	text-decoration: none;
 }
 
+.boldtext {
+	color: #25a1b0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;	
+	text-decoration: none;
+}
 
 .quote {
 	font-family: 'Crimson Text' serif;
@@ -329,6 +342,7 @@ p {
 	padding: 0px 0px 0px 0px;
 	width: 100%;
 	height: 50px;
+	margin-bottom: 20px;
 }
 
 .heading3a {
@@ -341,6 +355,7 @@ p {
 	width: 100%;
 	display: block;
 	padding: 10px 10px 10px 10px;
+	margin-bottom: 20px;
 }
 
 .heading3b {
@@ -353,6 +368,7 @@ p {
 	width: 100%;
 	display: block;
 	padding: 10px 10px 10px 10px;
+	margin-bottom: 20px;
 }
 
 .heading2 {
@@ -435,5 +451,13 @@ tr td.leftside {
 }
 
 tr td.rightside {
+	padding: 20px 20px 20px 20px;
+}
+
+tr td.leftside3 {
+	padding: 0px 20px 20px 20px;
+}
+
+tr td.rightside3 {
 	padding: 20px 20px 20px 20px;
 }
