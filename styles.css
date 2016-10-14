@@ -26,10 +26,10 @@ nav {
 header {
 	background-color: #0e2044;
 	background-image: url("images/header.jpg");
-	font-family: 'font-weight: light, 300;, sans-serif;
+	font-family: 'font-weight: light, 300; sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	line-height: 25px;
 	height: 600px;
 	padding-right: 200px;
@@ -43,9 +43,9 @@ article {
 }
 
 article.contact, article.contribute, footer {
-	font-family: 'font-weight: light, 300;, sans-serif;
+	font-family: 'font-weight: light, 300; sans-serif;
 	font-weight: normal, 400;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 }
 
 article.firstquote {
@@ -127,7 +127,7 @@ a.navlink, a.navlink:active, a.navlink:link, a.navlink:visited {
 	color: #ffffff;
 	font-family: Century Schoolbook;
 	font-size: 15px;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	text-decoration: none;
 	padding-right: 25px;
 }
@@ -147,20 +147,20 @@ a.reg:hover {
 
 a:link, a:active, a:visited{
 	color: #ffffff;
-	font-family: 'font-weight: light, 300;, sans-serif;
+	font-family: 'font-weight: light, 300; sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	line-height: 30px;	
 	text-decoration: none;
 }
 
 a.con:link, a.con:active, a.con:visited{
 	color: #25a1b0;
-	font-family: 'font-weight: light, 300;, sans-serif;
+	font-family: 'font-weight: light, 300; sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	line-height: 30px;	
 	text-decoration: none;
 }
@@ -269,10 +269,10 @@ h3 {
 
 .righttd {
 	color: #ffffff!important;
-	font-family: 'font-weight: light, 300;, sans-serif;
+	font-family: 'font-weight: light, 300; sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	line-height: 30px;	
 	text-decoration: none;
 }
@@ -297,10 +297,10 @@ h3 {
 }
 
 .qname {
-	font-family: 'font-weight: light, 300;, sans-serif;
+	font-family: 'font-weight: light, 300; sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	line-height: 35px;	
 }
 
