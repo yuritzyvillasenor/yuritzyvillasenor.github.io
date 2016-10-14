@@ -173,7 +173,7 @@ a.con:hover {
 
 a.button1:link, a.button1:active, a.button1:visited{
 	color: #ffffff;
-	background-color: #0e2044;
+	background-color: #b02591;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	font-weight: 700;
@@ -187,12 +187,12 @@ a.button1:link, a.button1:active, a.button1:visited{
 }
 
 a.button1:hover{
-	background-color:#b02591;
+	background-color:#0e2044;
 }
 
 a.button2:link, a.button2:active, a.button2:visited{
 	color: #ffffff;
-	background-color: #0e2044;
+	background-color: #25a1b0;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	font-weight: 700;
@@ -206,7 +206,7 @@ a.button2:link, a.button2:active, a.button2:visited{
 }
 
 a.button2:hover{
-	background-color: #25a1b0;
+	background-color: #0e2044;
 }
 
 
@@ -237,16 +237,6 @@ p {
 .avatar {
 	width: 90%;
 }
-
-.magenta {
-	color: #b02591!important;
-}
-
-
-.skyblue {
-	color: #25a1b0!important;
-}
-
 
 h3 {
 	color: #ffffff;
@@ -380,3 +370,17 @@ h3 {
 	width: 30%;
 	margin: 50px auto;
 }
+
+.magenta {
+	color: #b02591!important;
+}
+
+
+.skyblue {
+	color: #25a1b0!important;
+}
+
+.navyblue {
+	color: #0e2044!important;
+}
+
