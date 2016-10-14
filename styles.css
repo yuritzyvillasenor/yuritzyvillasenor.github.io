@@ -38,9 +38,11 @@ article {
 	font-family: Century Schoolbook;
 	font-size: 20px;
 	line-height: 30px;
-	padding: 150px;
 }
 
+article.contact, article.contribute, footer {
+	font-family: Avenir 'Roman';
+}
 
 article.firstquote {
 	background-color: #25a1b0;
@@ -57,6 +59,7 @@ article.firstquote {
 article.about {
 	background-color: #ffffff;
 	color: #0e2044;
+	padding: 200px;
 }
 
 article.contribute {
@@ -108,10 +111,6 @@ footer {
 	background-color: #0d172b;
 }
 
-
-article.contact, article.contribute, footer {
-	font-family: Avenir 'Roman';
-}
 
 
 /* text styles */
