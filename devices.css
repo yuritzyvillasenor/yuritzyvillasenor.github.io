@@ -371,7 +371,7 @@ article.firstquote {
 	background-color: #25a1b0;
 	background-image: url("images/ipointerwbg.png"), url("images/header2-mobile.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%, cover;
+	background-size: 100%;
 	background-position: bottom center, top center;
 	background-attachment: scroll, fixed;
 	text-align: center;
@@ -383,7 +383,7 @@ article.secondquote {
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: 100%;
 	background-color: #ffffff;
 	color: #0e2044;
 	text-align: center;
@@ -398,8 +398,8 @@ article.contribute {
 	background-image: url("images/wpointeribg.png"), url("images/background1-mobile.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-attachment: scroll, fixed;
-	background-size: 100%, cover;
+	background-attachment: scroll;
+	background-size: 100%;
 	width: 100%;
 }
 
