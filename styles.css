@@ -57,9 +57,7 @@ article.firstquote {
 article.about {
 	background-color: #ffffff;
 	color: #0e2044;
-	font-family: Century Schoolbook;
 }
-
 
 article.contribute {
 	color: #ffffff;
@@ -69,7 +67,6 @@ article.contribute {
 	background-position: top center;
 	background-attachment: scroll, fixed;
 	background-size: auto, 100%;
-	font-family: Avenir 'Roman';
 	font-size: 20px;
 	line-height: 30px;
 	width: 100%;
@@ -112,7 +109,7 @@ footer {
 }
 
 
-article.contact, footer {
+article.contact, article.contribute, footer {
 	font-family: Avenir 'Roman';
 }
 
