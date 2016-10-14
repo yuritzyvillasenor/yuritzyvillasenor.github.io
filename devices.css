@@ -400,7 +400,7 @@ article.contribute {
 	width: 100%;
 }
 
-.heading2 {
+..heading1, .heading2, .heading3a, .heading3b {
 	font-size: 15px;
 	line-height: 18px;
 }
