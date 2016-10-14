@@ -26,7 +26,7 @@ nav {
 header {
 	background-color: #0e2044;
 	background-image: url("images/header.jpg");
-	font-family: 'Poppins', sans-serif;
+	font-family: 'font-weight: light, 300;, sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
 	letter-spacing: 1px;
@@ -43,7 +43,7 @@ article {
 }
 
 article.contact, article.contribute, footer {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'font-weight: light, 300;, sans-serif;
 	font-weight: normal, 400;
 	letter-spacing: 1px;
 }
@@ -147,7 +147,7 @@ a.reg:hover {
 
 a:link, a:active, a:visited{
 	color: #ffffff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'font-weight: light, 300;, sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
 	letter-spacing: 1px;
@@ -157,7 +157,7 @@ a:link, a:active, a:visited{
 
 a.con:link, a.con:active, a.con:visited{
 	color: #25a1b0;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'font-weight: light, 300;, sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
 	letter-spacing: 1px;
@@ -269,7 +269,7 @@ h3 {
 
 .righttd {
 	color: #ffffff!important;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'font-weight: light, 300;, sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
 	letter-spacing: 1px;
@@ -297,7 +297,7 @@ h3 {
 }
 
 .qname {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'font-weight: light, 300;, sans-serif;
 	font-size: 20px;
 	font-weight: normal, 400;
 	letter-spacing: 1px;
