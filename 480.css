@@ -45,12 +45,7 @@
 	/* ----------font stuff---------- */
 
 
-	nav {
-		text-align: center;
-	}
-
 	header {
-		font-family: 'Muli', serif;
 		font-size: 20px;
 		line-height: 25px;
 	}
@@ -66,20 +61,9 @@
 	}
 
 	article.firstquote span, article.secondquote span {
-		font-size: 15px;
+		font-size: 20px;
 		line-height: 20px;
-		text-align: center;
 	}
-
-	article.contribute {
-		color: #ffffff;
-	}
-
-	article.secondquote {
-		color: #0e2044;
-		text-align: center;
-	}
-
 
 	.headerright, .qname {
 		font-size: 10px;
