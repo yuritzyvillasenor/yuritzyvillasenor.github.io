@@ -34,6 +34,7 @@ header {
 }
 
 article {
+	color: #ffffff;
 	font-family: Century Schoolbook;
 	font-size: 20px;
 	padding: 150px;
@@ -54,6 +55,9 @@ article.firstquote {
 
 article.about {
 	background-color: #ffffff;
+	color: #0e2044;
+	font-family: Century Schoolbook;
+	font-size: 20px;
 }
 
 
