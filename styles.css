@@ -151,7 +151,7 @@ a.navlink, a.navlink:active, a.navlink:link, a.navlink:visited {
 	font-size: 15px;
 	letter-spacing: 0px;
 	text-decoration: none;
-	margin-right: 25px;
+	margin: 0px 12px 0px 12px;
 }
 
 a.navlink:hover {
