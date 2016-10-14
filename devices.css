@@ -325,7 +325,7 @@ article.contribute {
 
 	.firstquote span, .secondquote span {
 		font-size: 20px;
-		line-height: 20px;
+		line-height: 10px;
 	}
 
 	a.button1, a.button1:link, a.button1:active, a.button1:visited {
@@ -400,12 +400,12 @@ article.contribute {
 	width: 100%;
 }
 
-..heading1, .heading2, .heading3a, .heading3b {
+.heading1, .heading2, .heading3a, .heading3b {
 	font-size: 15px;
 	line-height: 18px;
 }
 
-.headerright {
+.headerright, .qname {
 	font-size: 10px;
 	line-height: 15px;
 
