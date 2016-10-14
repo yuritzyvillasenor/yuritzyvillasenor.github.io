@@ -60,7 +60,10 @@
 
 	/* ----------font stuff---------- */
 
-
+	nav {
+		text-align: center;
+	}
+	
 	article.contribute {
 		font-size: 15px;
 		line-height: 22px;
@@ -159,7 +162,6 @@
 	}
 
 	.headerright {
-		text-align: center;
 		position: relative;
 		top: 50%;
 		transform: translateY(-50%);

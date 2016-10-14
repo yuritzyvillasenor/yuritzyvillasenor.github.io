@@ -45,8 +45,13 @@
 		padding: 0px 0px 0px 0px;
 	}
 
+
 	/* ----------font stuff---------- */
 
+
+	nav {
+		text-align: center;
+	}
 
 	header {
 		font-size: 20px;
