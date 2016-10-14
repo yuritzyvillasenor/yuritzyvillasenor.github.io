@@ -382,7 +382,7 @@ article.secondquote {
 	background-image: url("images/background2-mobile.jpg");
 	background-position: bottom right;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-size: 100%;
 	background-color: #ffffff;
 	color: #0e2044;
@@ -398,7 +398,7 @@ article.contribute {
 	background-image: url("images/wpointeribg.png"), url("images/background1-mobile.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-attachment: scroll;
+	background-attachment: scroll, fixed;
 	background-size: 100%;
 	width: 100%;
 }
