@@ -1,0 +1,194 @@
+@media (max-width: 768px){
+
+
+	.toplogo {
+		background-color: ;
+	}
+
+
+	/* ----------padding and size stuff---------- */
+
+
+	nav {
+		padding: 10px 20px 10px 20px;
+	}
+
+	header {
+		padding: 0px 20px 0px 0px;
+	}
+
+	article.firstquote {
+		padding: 30px 30px 50px 30px;
+	}
+
+	article.about {
+		padding: 40px 30px 60px 30px;
+	}
+
+	article.contribute {
+		padding: 60px 30px 30px 30px;
+	}
+
+	article.secondquote{
+		padding: 30px 30px 20px 30px;
+	}
+
+	article.contact {
+		padding: 60px 30px 45px 30px;
+	}
+
+	footer {
+		padding: 30px 30px 30px 30px;
+	}
+
+	.leftside2, .rightside2, .leftside3, .rightside3 {
+		padding: 0px 0px 0px 0px;
+	}
+
+	/* ----------font stuff---------- */
+
+
+	header {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	article.about {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.contact .lefttd, .contact .righttd {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	footer {
+		font-size: 10px;
+		line-height:15px;
+	}
+
+	a:link, a:active, a:visited, .contact{
+		font-size: 15px;
+		line-height: 20px;	
+	}
+
+	a.button1, a.button1:link, a.button1:active, a.button1:visited, a.button2, a.button2:link, a.button2:active, a.button2:visited {
+		font-size: 20px;
+	}
+
+	.headerright, .qname {
+		font-size: 12px;
+		line-height: 15px;
+
+	}
+
+
+	/* ----------background stuff---------- */
+
+
+	nav {
+		background-color: #0e2044;
+		background-image: none;
+		display: block;
+	}
+
+	article.firstquote {
+		background-color: #25a1b0;
+		background-image: url("images/ipointerwbg.png"), url("images/header2.jpg");
+		background-attachment: scroll, fixed;
+		background-position: bottom center, top center;
+		background-repeat: no-repeat;
+		background-size: 100%, cover;
+		width: 100%;
+	}
+
+	header {
+		background-color: #0e2044;
+		background-image: url("images/header-mobile.jpg");
+		background-attachment: scroll;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 300px;
+	}
+
+	article.firstquote {
+		background-color: #25a1b0;
+		background-image: url("images/ipointerwbg.png"), none;
+		background-attachment: scroll;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+	}
+
+	article.contribute {
+		background-color:#0c3052;
+		background-image: url("images/wpointeribg.png"), url("images/background1-mobile.jpg");
+		background-attachment: scroll;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: 100%, cover;
+		width: 100%;
+	}
+
+	article.secondquote {
+		background-color: #ffffff;
+		background-image: url("images/background2-mobile.jpg");
+		background-attachment: scroll;
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+	}
+
+	.leftside, .rightside, .leftside1, .rightside1, .leftside2, .rightside2 {
+		display: block;
+		width: 100%;
+	}
+
+	a.button1, a.button1:link, a.button1:active, a.button1:visited {
+		display: inline-block;
+		float: left;
+		width: 48%;
+		margin-right: 4%;
+	}
+
+	a.button2, a.button2:link, a.button2:active, a.button2:visited {
+		display: inline-block;
+		width: 48%;
+	}
+
+	.leftside2, .rightside2, .leftside3, .rightside3 {
+		display: block;
+		width: 100%;
+	}
+
+	.avatar {
+		vertical-align: middle;
+		float: left;
+		width: 200px;
+	}
+
+	.element {
+	    margin: 0px;
+	}
+
+	.avatarbox {
+	    display: none;
+	}
+
+	.avatar {
+		width: 90%;
+	}
+
+	p {
+		display: inline-block;
+		vertical-align: middle;
+	 	margin: 0px;
+		width: 100%;
+	}
+
+}
+

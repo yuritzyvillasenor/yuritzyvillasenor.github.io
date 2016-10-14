@@ -2,6 +2,7 @@ body {
 	background-color: #0e2044;
 }
 
+
 header, nav {
 	background-attachment: fixed;
 	background-position: top center;
@@ -234,31 +235,27 @@ a.button2:hover{
 
 
 .avatar {
-	width: 200px;
 	vertical-align: middle;
 	float: left;
+	width: 90%;
 }
 
 .element {
-    margin:10px;
+    margin: 10px;
 }
 
 p {
-    display:inline-block;
-    margin:0px;
-    width:70%;
-    background:white;
-    vertical-align:middle;
+    display: inline-block;
+    margin: 0px;
+    width: 70%;
+    background: white;
+    vertical-align: middle;
 }
 
 .avatarbox {
-    display:inline-block;
-    vertical-align:middle;
+    display: inline-block;
+    vertical-align: middle;
     width: 29%;
-}
-
-.avatar {
-	width: 90%;
 }
 
 .conhead {

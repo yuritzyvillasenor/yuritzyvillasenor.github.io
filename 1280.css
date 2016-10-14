@@ -1,0 +1,182 @@
+@media (max-width: 1280px){
+
+
+	.toplogo {
+		background-color: ;
+	}
+
+
+	/* ----------padding and size stuff---------- */
+
+
+	nav {
+		padding: 10px 20px 10px 20px;
+	}
+
+	header {
+		padding: 20px 20px 20px 20px;
+	}
+
+	article.firstquote {
+		padding: 65px 100px 90px 100px;
+	}
+
+	article.about {
+		padding: 100px 100px 100px 100px;
+	}
+
+	article.contribute {
+		padding: 150px 100px 150px 100px;
+	}
+
+	article.secondquote {
+		padding: 100px 100px 100px 100px;
+	}
+
+	article.contact {
+		padding: 50px 100px 50px 100px;
+	}
+
+	footer {
+		padding: 50px 100px 50px 100px;
+	}
+
+	.headerright {
+		padding: 0px 0px 0px 0px;
+	}
+
+	.heading1, .heading2, .heading3a, .heading3b {
+		padding: 5px 5px 5px 8px;
+	}
+
+	.leftside1, .leftside2 {
+		padding: 0px 0px 0px 0px;	
+	}
+
+	.rightside1, .rightside2 {
+		padding: 10px 0px 0px 0px;
+	}
+
+
+	/* ----------font stuff---------- */
+
+
+	article.contribute {
+		font-size: 15px;
+		line-height: 22px;
+	}
+
+	.firstquote .qname {
+		font-size: 15px;
+		line-height: 40px;
+	}
+
+	.firstquote span, .secondquote span {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	a:link, a:active, a:visited, a.con:link, a.con:active, a.con:visited {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	a.button1, a.button1:link, a.button1:active, a.button1:visited, a.button2, a.button2:link, a.button2:active, a.button2:visited {
+		font-size: 22px;
+	}
+
+	.contact, .contact .lefttd, .contact .righttd {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.headerright {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	footer {
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+
+	.heading1, .heading2, .heading3a, .heading3b {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+ 	.conhead {
+		font-size: 28px;
+		line-height: 28px;
+		margin: 10px;
+	}
+
+	.leftside1, .rightside1, .leftside2, .rightside2 {
+		text-align: center;
+	}
+
+
+	/* ----------background stuff---------- */
+
+
+	
+	header {
+		height: 350px;
+	}
+
+	article.firstquote {
+		background-color: #25a1b0;
+		background-image: url("images/ipointerwbg.png"), url("images/header2.jpg");
+		background-attachment: scroll, fixed;
+		background-position: bottom center, top center;
+		background-repeat: no-repeat;
+		background-size: 100%, cover;
+		width: 100%;
+}
+
+	article.contribute {
+		color: #ffffff;
+		background-color:#0c3052;
+		background-image: url("images/wpointeribg.png"), url("images/background1.jpg");
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-attachment: scroll, fixed;
+		background-size: 100%, cover;
+		width: 100%;
+	}
+
+	.leftside {
+		width: 60%;
+	}
+
+	.rightside {
+		width: 40%;
+	}
+
+	.heading3a, .heading3b {
+		border-width: 4px;
+	}
+
+	.headerright {
+		text-align: center;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		float: right;
+		width: 55%;
+	}
+
+	.toplogo {
+		display: block;
+		margin: auto;
+		height: 40px;
+	}
+
+	.leftside1, .rightside1, .leftside2, .rightside2 {
+		display: inline-block;
+		width: 100%;
+	}
+
+}
+
