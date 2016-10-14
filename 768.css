@@ -152,6 +152,14 @@
 		width: 100%;
 	}
 
+	.leftside1{
+		background-color: red;
+	}
+
+	.rightside1{
+		background-color: orange;
+	}
+
 	a.button1, a.button1:link, a.button1:active, a.button1:visited {
 		display: inline-block;
 		float: left;
