@@ -49,7 +49,7 @@
 		padding: 5px 5px 5px 8px;
 	}
 
-	.leftside1, .leftside2 {
+	.leftside1, .leftside1 {
 		padding: 0px 0px 0px 0px;	
 	}
 
@@ -63,7 +63,7 @@
 	nav {
 		text-align: center;
 	}
-	
+
 	article.contribute {
 		font-size: 15px;
 		line-height: 22px;
