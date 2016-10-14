@@ -171,7 +171,7 @@ a.con:hover {
 	border-bottom: 1px solid #25a1b0;
 }
 
-a.button1:link, a.button1:active, a.button1:visited{
+a.button1, a.button1:link, a.button1:active, a.button1:visited{
 	color: #ffffff;
 	background-color: #b02591;
 	font-family: 'Montserrat', sans-serif;
@@ -190,7 +190,7 @@ a.button1:hover{
 	background-color:#0e2044;
 }
 
-a.button2:link, a.button2:active, a.button2:visited{
+a.button2, a.button2:link, a.button2:active, a.button2:visited{
 	color: #ffffff;
 	background-color: #25a1b0;
 	font-family: 'Montserrat', sans-serif;
