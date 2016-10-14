@@ -1,48 +1,341 @@
 @media (max-width: 1280px){
+	nav {
+		padding: 20px;
+	}
+
+	header {
+		padding: 20px;
+		height: 350px;
+	}
+
+	article.firstquote {
+		padding: 66px 100px 100px 100px;
+	}
+
+	article.about {
+		padding: 100px 100px 100px 100px;
+	}
+
+	article.contribute{
+		padding: 150px 100px;
+		font-size: 15px;
+		line-height: 22px;
+	}
+
+	a.con:link, a.con:active, a.con:visited {
+		font-size: 15px;
+		line-height: 22px;		
+	}
+
+	article.secondquote{
+		padding: 100px 100px;
+	}
+
+	article.contact {
+		padding: 50px 100px;
+	}
+
+	footer {
+		padding: 50px 100px;
+	}
+
+	.firstquote .qname {
+		font-size: 18px;
+		line-height: 37px;
+	}
+
+	.firstquote span, .secondquote span {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.leftside {
+		width: 60%;
+	}
+
+	.rightside {
+		width: 40%;
+	}
+
+	.leftside2, .rightside2 {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		padding: 0px;
+	}
+
+	.rightside2{
+		padding-top: 20px;
+	}
+
+	.toplogo {
+	height: 40px;
+	display: block;
+	text-align: center;
+	margin: auto;
 }
+
+.heading2, .heading3a, .heading3b {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	line-height: 25px;
+	padding: 5px 5px 5px 8px;
+}
+
+.heading3a, .heading3b {
+	border-width: 4px;
+}
+
+.headerright {
+	width: 55%;
+	padding: 0px 0px;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	float: right;
+}
+
+.headerright {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+	.contact .lefttd, .contact .righttd {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	a.button1, a.button1:link, a.button1:active, a.button1:visited {
+		font-size: 22px;
+	}
+
+	a.button2, a.button2:link, a.button2:active, a.button2:visited {
+		font-size: 22px;
+	}
+
+	a:link, a:active, a:visited, .contact, .contact .lefttd, .contact .righttd {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	footer {
+		font-size: 13px;
+		line-height:20px;
+	}
+
+	article.firstquote {
+	background-color: #25a1b0;
+	background-image: url("images/ipointerwbg.png"), url("images/header2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%, cover;
+	background-position: bottom center, top center;
+	background-attachment: scroll, fixed;
+	text-align: center;
+	width: 100%;
+}
+
+article.contribute {
+	color: #ffffff;
+	background-color:#0c3052;
+	background-image: url("images/wpointeribg.png"), url("images/background1.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: scroll, fixed;
+	background-size: 100%, cover;
+	width: 100%;
+}
+
+}
+
+
+
+
 
 @media (max-width: 768px){
 
+
+.avatar {
+	width: 200px;
+	vertical-align: middle;
+	float: left;
 }
+
+.element {
+    margin:0px;
+}
+
+p {
+    display:inline-block;
+    margin:0px;
+    width:100%;
+    background:white;
+    vertical-align:middle;
+}
+
+.avatarbox {
+    display:none;
+}
+
+.avatar {
+	width: 90%;
+}
+
+article.firstquote {
+	background-color: #25a1b0;
+	background-image: url("images/ipointerwbg.png"), url("images/header2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%, cover;
+	background-position: bottom center, top center;
+	background-attachment: scroll, fixed;
+	text-align: center;
+	width: 100%;
+}
+
+article.contribute {
+	color: #ffffff;
+	background-color:#0c3052;
+	background-image: url("images/wpointeribg.png"), url("images/background1.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: scroll, fixed;
+	background-size: 100%, cover;
+	width: 100%;
+}
+
+	article.about {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	article.firstquote {
+		padding: 50px 50px 80px 50px;
+	}
+
+	article.about {
+		padding: 40px 50px 50px 50px;
+	}
+
+	article.contribute {
+		padding: 90px 50px 50px 50px;
+	}
+
+	article.secondquote{
+		padding: 50px 50px;
+	}
+
+	article.contact {
+		padding: 50px 50px;
+	}
+
+	footer {
+		padding: 50px 50px;
+	}
+
+	.leftside, .rightside {
+		width: 100%;
+		display: block;
+	}
+
+
+	.leftside2, .rightside2 {
+		width: 100%;
+		display: block;
+	}
+
+	a.button1, a.button1:link, a.button1:active, a.button1:visited {
+		float: left;
+		width: 48%;
+		display: inline-block;
+		margin-right: 4%;
+	}
+
+	a.button2, a.button2:link, a.button2:active, a.button2:visited {
+		width: 48%;
+		display: inline-block;
+	}
+
+	a.button1, a.button1:link, a.button1:active, a.button1:visited {
+		font-size: 20px;
+	}
+
+	a.button2, a.button2:link, a.button2:active, a.button2:visited {
+		font-size: 20px;
+	}
+
+	a:link, a:active, a:visited, .contact{
+		font-family: 'Muli', serif;
+		font-size: 15px;
+		font-weight: 400, normal;
+		letter-spacing: 0px;
+		line-height: 20px;	
+		text-decoration: none;
+	}
+
+	.contact .lefttd, .contact .righttd {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	footer {
+		font-size: 10px;
+		line-height:15px;
+	}
+
+
+}
+
+
+
+
+
 
 @media (max-width: 480px){
-
-}
-
-
-
-
-@media screen and (max-width:768px) {
-
-	.stack-row > .row-fluid-wrapper > .row-fluid{
- 		display: -webkit-box;   
-		display: -moz-box;      
-		display: -ms-flexbox;   
- 		display: -webkit-flex;  
-		display: flex;
-		-webkit-flex-flow: row wrap;
-		-moz-flex-flow: row wrap;
-		-ms-flex-flow: row wrap;
-		flex-flow: row wrap;
+	article.about {
+		font-size: 15px;
+		line-height: 20px;
 	}
-    
-    #main-content{
- 		order: 2;
-		-webkit-order: 2;
-    	-moz-order: 2;
-    	-ms-order: 2;
-    		width: 100%;
-    }
 
-    #sidebar {
-    	order: 1;
-    	-webkit-order: 1;
-    	-moz-order: 1;
-    	-ms-order: 1;
-    	width: 100%;
-    }
+
+	article.firstquote {
+		padding: 20px 20px 20px 20px;
+	}
+
+	article.about {
+		padding: 20px 20px 20px 20px;
+	}
+
+	article.contribute {
+		padding: 20px 20px;
+	}
+
+	article.secondquote{
+		padding: 20px 20px;
+	}
+
+	article.contact {
+		padding: 20px 20px;
+	}
+
+	footer {
+		padding: 20px 20px;
+	}
+
+	a.button1, a.button1:link, a.button1:active, a.button1:visited {
+		font-size: 15px;
+	}
+
+	a.button2, a.button2:link, a.button2:active, a.button2:visited {
+		font-size: 15px;
+	}
+
+	.leftside2, .rightside2 {
+		width: 100%;
+		display: block;
+	}
+
 }
-
-
 
 

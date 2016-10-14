@@ -6,7 +6,7 @@ header, nav {
 	background-attachment: fixed;
 	background-position: top center;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	border: 0px;
 	color: #ffffff;
 	-moz-box-sizing: border-box; 
@@ -18,7 +18,6 @@ nav {
 	background-color: #0e2044;
 	background-image: url("images/header3.jpg");
 	display: block;
-	height: 90px;
 	padding: 20px 150px 20px 150px;
 	text-align: right;
 }
@@ -50,9 +49,9 @@ article.contact, article.contribute, footer {
 
 article.firstquote {
 	background-color: #25a1b0;
-	background-image: url("/images/ipointerwbg.png"), url("images/header2.jpg");
+	background-image: url("images/ipointerwbg.png"), url("images/header2.jpg");
 	background-repeat: no-repeat;
-	background-size: auto, 100%;
+	background-size: auto, cover;
 	background-position: bottom center, top center;
 	background-attachment: scroll, fixed;
 	text-align: center;
@@ -69,11 +68,11 @@ article.about {
 article.contribute {
 	color: #ffffff;
 	background-color:#0c3052;
-	background-image: url("images/wpointer.png"), url("images/background1.jpg");
+	background-image: url("images/wpointeribg.png"), url("images/background1.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: scroll, fixed;
-	background-size: auto, 100%;
+	background-size: auto, cover;
 	font-size: 20px;
 	line-height: 30px;
 	width: 100%;
@@ -85,6 +84,7 @@ article.secondquote {
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 	background-color: #ffffff;
 	color: #0e2044;
 	text-align: center;
@@ -120,12 +120,26 @@ footer {
 /* text styles */
 
 
+.leftside {
+	width: 55%;
+}
 
+.rightside {
+	width: 45%;
+}
+
+.leftside2 {
+	width: 35%;
+}
+
+.rightside2 {
+	vertical-align: middle;
+}
 
 
 a.navlink, a.navlink:active, a.navlink:link, a.navlink:visited {
 	color: #ffffff;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Muli', serif;
 	font-size: 15px;
 	letter-spacing: 0px;
 	text-decoration: none;
@@ -182,8 +196,9 @@ a.button1, a.button1:link, a.button1:active, a.button1:visited{
 	padding: 15px;
 	text-align: right;
 	text-decoration: none;
-	width: 60%;
+	width: 100%;
 	display: block;
+	margin-bottom: 20px;
 }
 
 a.button1:hover{
@@ -201,8 +216,9 @@ a.button2, a.button2:link, a.button2:active, a.button2:visited{
 	padding: 15px;
 	text-align: right;
 	text-decoration: none;
-	width: 60%;
+	width: 100%;
 	display: block;
+	margin-bottom: 20px;
 }
 
 a.button2:hover{
@@ -238,13 +254,12 @@ p {
 	width: 90%;
 }
 
-h3 {
+.conhead {
 	color: #ffffff;
 	font-size: 30px;
 	font-family: 'Crimson Text', serif;
 	line-height: 50px;
-	left: -25px;
-	position: relative;
+	display: block;
 }
 
 .lefttd {
@@ -300,18 +315,7 @@ h3 {
 .toplogo {
 	height: 50px;
 	display: block;
-	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	float: left;
-}
-
-.navbox{
-	float: right;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	text-align: left;
 }
 
 .heading1 {
@@ -320,6 +324,7 @@ h3 {
 	font-size: 35px;
 	font-weight: 700;
 	letter-spacing: 0px;
+	line-height: 37px;
 	display: block;
 	padding: 0px 0px 0px 0px;
 	width: 100%;
@@ -392,24 +397,43 @@ a:hover .navyblue {
 }
 
 
-
-#sidebar {
-    margin-right: 0 !important;
-    float: right !important;
+li {
+  	list-style-position: inside;
 }
 
-#main-content {
-    margin-left: 0 !important;
+ul {
+    list-style: none;
+    margin-left: 0;
+    text-indent: -20px;
+	/*        
+	padding-left: 20px; 
+	*/
 }
 
-@media (max-width: 767px) {
-    #main-content {
-    margin-left: 0 !important;
+li.one:before {
+    color: #b02591;
+    content: "+";
+    display: block;
+    float: left;
+    width: 20px;
 }
 
-    #main-content, #sidebar {
-    width: 100% !important;
-    float: none !important;
-    }
+li.two:before {
+	color: #25a1b0;
+    content: "+";
+    display: block;
+    float: left;
+    width: 20px;
 }
 
+.conbox, .navbox2 {
+	width: 100%;
+}
+
+tr td.leftside {
+	padding: 0px 20px 20px 20px;
+}
+
+tr td.rightside {
+	padding: 20px 20px 20px 20px;
+}
