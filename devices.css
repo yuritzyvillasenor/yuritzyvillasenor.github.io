@@ -211,15 +211,15 @@ article.contribute {
 	}
 
 	article.firstquote {
-		padding: 50px 50px 80px 50px;
+		padding: 60px 50px 80px 50px;
 	}
 
 	article.about {
-		padding: 40px 50px 50px 50px;
+		padding: 40px 50px 60px 50px;
 	}
 
 	article.contribute {
-		padding: 90px 50px 50px 50px;
+		padding: 1000px 50px 50px 50px;
 	}
 
 	article.secondquote{
@@ -398,6 +398,17 @@ article.contribute {
 	background-position: top center;
 	background-attachment: scroll;
 	width: 100%;
+}
+
+.heading2 {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.headerright {
+	font-size: 10px;
+	line-height: 15px;
+
 }
 
 }
