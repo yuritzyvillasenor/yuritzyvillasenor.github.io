@@ -293,6 +293,12 @@ article.contribute {
 
 
 @media (max-width: 480px){
+
+.heading1, .heading2, .heading3a, .heading3b {
+	font-size: 15px;
+	line-height: 18px;
+}
+
 	article.about {
 		font-size: 15px;
 		line-height: 20px;
@@ -400,10 +406,6 @@ article.contribute {
 	width: 100%;
 }
 
-.heading1, .heading2, .heading3a, .heading3b {
-	font-size: 15px;
-	line-height: 18px;
-}
 
 .headerright, .qname {
 	font-size: 10px;
