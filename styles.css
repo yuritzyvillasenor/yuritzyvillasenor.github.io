@@ -158,9 +158,9 @@ a.con:link, a.con:active, a.con:visited{
 }
 
 a.con:hover {
-	color: #ffffff;
+	color: #25a1b0;
 	text-decoration: none;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #25a1b0;
 }
 
 a.button1:link, a.button1:active, a.button1:visited{
