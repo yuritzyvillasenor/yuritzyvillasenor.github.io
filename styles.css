@@ -380,6 +380,10 @@ h3 {
 	color: #25a1b0!important;
 }
 
+a:hover .navyblue {
+	color: #ffffff;
+}
+
 .navyblue {
 	color: #0e2044!important;
 }
