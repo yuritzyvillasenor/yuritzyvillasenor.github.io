@@ -366,11 +366,11 @@ header {
 
 article.firstquote {
 	background-color: #25a1b0;
-	background-image: url("images/ipointerwbg.png"), url("images/header2-mobile.jpg");
+	background-image: url("images/ipointerwbg.png"), none;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: bottom center, top center;
-	background-attachment: scroll, fixed;
+	background-position: bottom center;
+	background-attachment: scroll;
 	text-align: center;
 	width: 100%;
 }
@@ -396,7 +396,7 @@ article.contribute {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: top center;
-	background-attachment: scroll, fixed;
+	background-attachment: scroll;
 	width: 100%;
 }
 
