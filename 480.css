@@ -45,14 +45,18 @@
 	/* ----------font stuff---------- */
 
 
+	nav {
+		text-align: center;
+	}
+
 	header {
 		font-size: 20px;
 		line-height: 25px;
 	}
 
 	article.about {
-		font-size: 15px;
-		line-height: 20px;
+		font-size: 20px;
+		line-height: 25px;
 	}
 
 	.heading1, .heading2, .heading3a, .heading3b {
@@ -61,11 +65,11 @@
 	}
 
 	article.firstquote span, article.secondquote span {
-		font-size: 20px;
-		line-height: 20px;
+		font-size: 25px;
+		line-height: 25px;
 	}
 
-	.headerright, .qname {
+	.headerright {
 		font-size: 10px;
 		line-height: 15px;
 	}
