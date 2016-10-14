@@ -28,7 +28,7 @@ header {
 	background-image: url("images/header.jpg");
 	font-family: Avenir 'Roman';
 	font-size: 20px;
-	line-height: 24px;
+	line-height: 25px;
 	height: 600px;
 	padding-right: 200px;
 }
@@ -71,7 +71,7 @@ article.contribute {
 	background-size: auto, 100%;
 	font-family: Avenir 'Roman';
 	font-size: 20px;
-	line-height: 28px;
+	line-height: 30px;
 	width: 100%;
 	padding: 200px 200px;
 }
@@ -103,7 +103,7 @@ article.contact {
 
 footer {
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 25px;
 	color: #ffffff;
 	width: 100%;
 	padding: 50px 200px;
@@ -126,7 +126,7 @@ article.contact, footer {
 a.navlink, a.navlink:active, a.navlink:link, a.navlink:visited {
 	color: #ffffff;
 	font-family: Century Schoolbook;
-	font-size: 14px;
+	font-size: 15px;
 	letter-spacing: 1px;
 	text-decoration: none;
 	padding-right: 25px;
@@ -149,7 +149,7 @@ a:link, a:active, a:visited{
 	color: #ffffff;
 	font-family: Avenir 'Roman';
 	font-size: 20px;
-	line-height: 34px;	
+	line-height: 30px;	
 	text-decoration: none;
 }
 
@@ -157,7 +157,7 @@ a.con:link, a.con:active, a.con:visited{
 	color: #25a1b0;
 	font-family: Avenir 'Roman';
 	font-size: 20px;
-	line-height: 34px;	
+	line-height: 30px;	
 	text-decoration: none;
 }
 
@@ -172,8 +172,8 @@ a.button1:link, a.button1:active, a.button1:visited{
 	background-color: #0e2044;
 	font-family: Nexa Bold;
 	font-size: 30px;
-	letter-spacing: 0px;
-	line-height: 34px;
+	letter-spacing 0px;
+	line-height: 35px;
 	padding: 15px;
 	text-align: right;
 	text-decoration: none;
@@ -191,7 +191,7 @@ a.button2:link, a.button2:active, a.button2:visited{
 	font-family: Nexa Bold;
 	font-size: 30px;
 	letter-spacing: 0px;
-	line-height: 34px;
+	line-height: 35px;
 	padding: 15px;
 	text-align: right;
 	text-decoration: none;
@@ -255,7 +255,7 @@ h3 {
 	color: #25a1b0;
 	font-family: Nexa Bold;
 	font-size: 20px;
-	line-height: 34px;	
+	line-height: 30px;	
 	text-decoration: none;
 }
 
@@ -263,33 +263,33 @@ h3 {
 	color: #ffffff!important;
 	font-family: Avenir 'Roman';
 	font-size: 20px;
-	line-height: 34px;	
+	line-height: 30px;	
 	text-decoration: none;
 }
 
 
 .quote {
 	font-family: Century Schoolbook 'Regular';
-	font-size: 36px;
+	font-size: 35px;
 	line-height: 45px;
 }
 
 .qmark {
 	color: #0e2044;
 	font-family: Century Schoolbook 'Bold';
-	font-size: 36px;	
+	font-size: 35px;	
 }
 
 .qmark2 {
 	color: #b02591;
 	font-family: Century Schoolbook 'Bold';
-	font-size: 36px;	
+	font-size: 35px;	
 }
 
 .qname {
 	font-family: Avenir 'Roman';
 	font-size: 20px;
-	line-height: 34px;	
+	line-height: 35px;	
 }
 
 .toplogo {
@@ -312,7 +312,7 @@ h3 {
 .heading1 {
 	color: #ffffff;
 	font-family: Nexa Bold;
-	font-size: 34px;
+	font-size: 35px;
 	letter-spacing: 0px;
 	display: block;
 	padding: 0px 0px 0px 0px;
@@ -323,7 +323,7 @@ h3 {
 .heading3a {
 	color: #0e2044;
 	font-family: Nexa Bold;
-	font-size: 34px;
+	font-size: 35px;
 	letter-spacing: 0px;
 	border-left: 8px solid #b02591;
 	width: 100%;
@@ -334,7 +334,7 @@ h3 {
 .heading3b {
 	color: #0e2044;
 	font-family: Nexa Bold;
-	font-size: 34px;
+	font-size: 35px;
 	letter-spacing: 0px;
 	border-left: 8px solid #25a1b0;
 	width: 100%;
@@ -345,7 +345,7 @@ h3 {
 .heading2 {
 	color: #ffffff;
 	font-family: Nexa Bold;
-	font-size: 36px;
+	font-size: 35px;
 	letter-spacing: 0px;
 	line-height: 36px;
 }
