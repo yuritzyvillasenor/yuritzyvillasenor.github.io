@@ -300,7 +300,7 @@ article.contribute {
 
 
 	article.firstquote {
-		padding: 20px 20px 20px 20px;
+		padding: 20px 20px 40px 20px;
 	}
 
 	article.about {
@@ -344,14 +344,20 @@ article.contribute {
 nav {
 	background-color: #0e2044;
 	background-image: url("images/header3-mobile.jpg");
+	background-position: center center;
+	background-size: 100%;
+	background-attachment: scroll;
 	display: block;
-	padding: 0px;
+	padding: 20px 0px 20px 0px;
 	text-align: right;
 }
 
 header {
 	background-color: #0e2044;
 	background-image: url("images/header-mobile.jpg");
+	background-position: center center;
+	background-size: 100%;
+	background-attachment: scroll;
 	font-family: 'Muli', serif;
 	font-size: 20px;
 	font-weight: 400, normal;
@@ -367,7 +373,7 @@ article.firstquote {
 	background-repeat: no-repeat;
 	background-size: 100%, cover;
 	background-position: bottom center, top center;
-	background-attachment: scroll, fixed;
+	background-attachment: scroll;
 	text-align: center;
 	width: 100%;
 }
