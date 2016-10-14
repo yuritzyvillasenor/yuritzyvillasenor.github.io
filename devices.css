@@ -324,7 +324,7 @@ article.contribute {
 	}
 
 	.firstquote span, .secondquote span {
-		font-size: 15px;
+		font-size: 20px;
 		line-height: 20px;
 	}
 
@@ -382,7 +382,7 @@ article.secondquote {
 	color: #0e2044;
 	text-align: center;
 	width: 100%;
-	padding: 100px 200px;
+	padding: 20px 20px;
 }
 
 
