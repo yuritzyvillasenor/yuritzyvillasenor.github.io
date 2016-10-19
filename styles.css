@@ -466,3 +466,9 @@ tr td.rightside3 {
 ._51m- _2pir _51mw div {
 color: #ffffff;
 }
+
+.hide {
+	display: none;
+	width: 0px;
+	height:0px;
+}
